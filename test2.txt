@@ -1,0 +1,7 @@
+lb x1, 395(x0)
+lh x2, 395(x0) 
+blt x2, x1, 8
+srl x3, x2, x1
+xor x3, x2, x1 
+srli x4, x3, 2 
+andi x5, x4, 1000 
